@@ -5,9 +5,7 @@ C-Profiler, a batch tool that scans c source code and conditionally adds debug s
 
 ![Image of cprof](https://github.com/TheMindVirus/cprof/blob/main/cprof.png)
 
-The script adds `____debug____("[CALL]: <method-name>");` statements to every scope that the script considers to be a method.
-
-This detection is in its infancy and may not find everything correctly.
+The script adds `____debug____("[CALL]: <method-name>");` statements to every scope that the script considers to be a method. This detection is in its infancy and may not find everything correctly.
 
 It is up to the developer building the software to determine the implementation of the `____debug____()` function.
 
