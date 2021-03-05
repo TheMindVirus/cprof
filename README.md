@@ -1,5 +1,5 @@
 # cprof
-C-Profiler, a batch tool that scans c source code and conditionally adds debug statements to every method
+C-Profiler, a batch tool that scans C source code and conditionally adds debug statements to every method
 
 ## Disclaimer: This script is alpha-quality software. There are too many known bugs to note and will likely not work on non-standard code.
 
